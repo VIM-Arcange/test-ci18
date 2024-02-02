@@ -1,37 +1,37 @@
 // This is just an example,
 // so you can safely delete all default props below
 export default {
-  failed: 'Action failed',
-  success: 'Action was successful',
+  failed: 'Échec de l\'action',
+  success: 'L\'action est réussie',
   menu: {
-    accounts: 'Accounts',
-    about: 'About',
-    lock: 'Lock application',
-    logs: 'Logs'
+    accounts: 'Comptes',
+    about: 'À propos',
+    lock: 'Verrouiller l\'application',
+    logs: 'Journaux'
   },
   logs: {
-    success_copy_clipboard: 'Data copied to clipboard',
-    error_copy_clipboard: 'Failed to copy data to clipboard'
+    success_copy_clipboard: 'Données copiées dans le presse-papier',
+    error_copy_clipboard: 'Echec de la copie des données dans le Presse-papiers'
   },
   scan: {
-    error_scan: 'QR scan failed',
-    error_permission_denied: 'Camera Permissions denied',
-    error_start_scan: 'Permissions denied or Error when getting camera permissions'
+    error_scan: 'Échec du scan du QR code',
+    error_permission_denied: 'Autorisation d’accès à l’appareil photo refusée',
+    error_start_scan: 'Permissions refusées ou Erreur lors de l\'obtention des permissions de l\'appareil photo'
   },
   login: {
-    pin_create: 'Choose your PIN code',
-    pin_confirm: 'Confirm your PIN code',
-    pin_enter: 'Enter your PIN code',
-    pin_mismatch: 'PIN codes do not match!',
-    pin_forgotten: 'Forgotten pin code?',
-    pin_init: 'PIN code initialized',
-    pin_reset: 'Reset done',
-    pin_error: 'Error initializing PIN code',
-    failed: 'Authentication failed',
-    biometrics_unavailable: 'Device Biometrics not available. Please enable them and restart the app.',
+    pin_create: 'Choisissez votre code PIN',
+    pin_confirm: 'Confirmez votre code PIN',
+    pin_enter: 'Saisissez votre code PIN',
+    pin_mismatch: 'Les codes PIN ne correspondent pas !',
+    pin_forgotten: 'Code PIN oublié ?',
+    pin_init: 'Code PIN initialisé',
+    pin_reset: 'Réinitialisation effectuée',
+    pin_error: 'Erreur lors de l\'initialisation du code PIN',
+    failed: 'Echec de l\'authentification',
+    biometrics_unavailable: 'Les fonctions biométriques de l\'appareil ne sont pas disponible. Veuillez les activer et redémarrer l\'application.',
     confirm_reset: {
-      title: 'Confirm PIN reset',
-      message: '<span class="text-red"><b>WARNING:</b></span> If you reset your PIN, all data including keys and authentications will be cleared.<br>You will then need to re-import your keys.'
+      title: 'Confirmez la réinitialisation du code PIN',
+      message: '<span class="text-red"><b>ATTENTION:</b></span> Si cous réinitilisez votre code PIN, toutes les données y compris vos clés et authentifications seront supprimées.<br>Vous devrez alors réimporter vos clés.'
     }
   },
   store_auth: {
