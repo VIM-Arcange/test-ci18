@@ -36,10 +36,10 @@ export default {
   },
   store_auth: {
     biometrics_reason: 'Autoriser HiveAuth à utiliser vos données biométriques pour vous authentifier',
-    biometrics_title: false,
+    biometrics_title: 'Authentification',
     biometrics_subtitle: false,
     //"Unlock HiveAuth with your Biometrics",
-    biometrics_description: false
+    biometrics_description: 'Utiliser votre FaceID ou TouchID pour déverrouiller HiveAuth'
   },
   accounts: {
     btn_add: false,
